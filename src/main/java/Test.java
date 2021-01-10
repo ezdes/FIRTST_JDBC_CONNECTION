@@ -31,7 +31,7 @@ public class Test {
 
         try {
             Class.forName("org.postgresql.Driver");
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/example", "postgres", "2m3410lt");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/example", "postgres", "secret");
 
             System.out.println("Java JDBC PostgreSQL Example");
 
